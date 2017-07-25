@@ -1,4 +1,12 @@
-// @import url('https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700');
 $main_background_color:         #F2F1EF;
 $main_text-color:               #2a2a2a;
+
 $default_border_radius:           2px;
+
+$default_border:                  1px solid rgba(0, 0, 0, 0.07);
+$light_border:                    1px solid rgba(0, 0, 0, 0.03);
+$default_box_shadow:              0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+$default_box_shadow_hover:        0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+$card_area_padding:               1em 2em;
