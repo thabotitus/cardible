@@ -1,0 +1,40 @@
+.cdb-card__content {
+  padding: $card_area_padding;
+
+  & + .cdb-card__content {
+    border-top: $light_border;
+  }
+}
+
+.cdb-card__content-controls {
+  display: flex;
+  border-top: $light_border;
+  height: 60px;
+}
+
+.cdb-card__content-controls-item {
+  border-right: $light_border;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: auto;
+  font-size: 1.5em;
+}
+
+.cdb-card__content-controls-item-1 {
+  flex: 1;
+}
+
+.cdb-card__content-controls-item-2 {
+  flex: 2;
+}
+
+.cdb-card__content-controls-item-3 {
+  flex: 3;
+}
+
+.cdb-card__content-controls-item-4 {
+  flex: 4;
+}
+

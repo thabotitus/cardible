@@ -14,44 +14,9 @@
   }
 }
 
-.cdb-card__content {
-  padding: $card_area_padding;
-
-  & + .cdb-card__content {
-    border-top: $light_border;
-  }
-}
-
-.cdb-card__header {
-  min-height: 60px;
-  background: #2c343d;
-  color: #fefefe;
-  padding: $card_area_padding;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  font-weight: 700;
-  text-transform: uppercase;
-  @include border_top_radius($default_border_radius);
-}
-
-.cdb-card__header-group {
-  min-height: 60px;
-  display: flex;
-  flex-direction: column;
-  background: #2c343d;
-  color: #fefefe;
-  padding: $card_area_padding;
-  @include border_top_radius($default_border_radius);
-
-  .cdb-card__header{
-    min-height: 20px;
-    background: none;
-    padding: 0;
-  }
-  .cdb-card__sub-header{
-    font-weight: 200;
-    margin-top: -5px;
-    font-size: 0.9rem;
+.cdb-card__image {
+  img {
+    max-width: 100%;
+    height: auto;
   }
 }

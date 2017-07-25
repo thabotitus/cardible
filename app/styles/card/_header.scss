@@ -1,0 +1,40 @@
+.cdb-card__header {
+  min-height: 60px;
+  background: $default_header_color;
+  color: $primary_color;
+  padding: $card_area_padding;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  @include border_top_radius($default_border_radius);
+  position: relative;
+
+  &--dark {
+    background: #333333;
+    color: #b1b1b1;
+  }
+}
+
+.cdb-card__header-group {
+  min-height: 60px;
+  display: flex;
+  flex-direction: column;
+  background: $default_header_color;
+  color: $primary_color;
+  padding: $card_area_padding;
+  @include border_top_radius($default_border_radius);
+  position: relative;
+
+  .cdb-card__header{
+    min-height: 20px;
+    background: none;
+    padding: 0;
+  }
+  .cdb-card__sub-header{
+    font-weight: 200;
+    font-size: 0.95rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+}
