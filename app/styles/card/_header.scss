@@ -10,11 +10,6 @@
   text-transform: uppercase;
   @include border_top_radius($default_border_radius);
   position: relative;
-
-  &--dark {
-    background: #333333;
-    color: #b1b1b1;
-  }
 }
 
 .cdb-card__header-group {
